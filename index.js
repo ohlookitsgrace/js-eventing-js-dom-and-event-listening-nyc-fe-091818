@@ -26,6 +26,7 @@ console.log(divs)
 divs[3].addEventListener('click', onDivClick)
 
 function onDivClick(event) {
+  event.stopPropagation{}
   console.log(event)
 }
 
