@@ -12,7 +12,7 @@ main.addEventListener('click', onClick)
 function onKeyDown(event) {
   console.log(event)
   if (event.which === 74) {
-    
+    event.preventDefault()
   }
 }
 
