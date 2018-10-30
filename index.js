@@ -35,6 +35,6 @@ function onDivClick(event) {
 //}
 
  
-for (const aDiv of divs) {
+for (const Div of divs) {
   aDiv.addEventListener('click', bubble);
 }
