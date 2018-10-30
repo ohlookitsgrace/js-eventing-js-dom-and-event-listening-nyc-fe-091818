@@ -8,3 +8,4 @@ function onClick() {
 }
 
 main.addEventListener('click', onClick)
+
