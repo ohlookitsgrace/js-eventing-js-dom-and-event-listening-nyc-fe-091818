@@ -11,3 +11,5 @@ function onClick() {
 main.addEventListener('click', onClick)
 
 const input = document.querySelector('input')
+
+input.addEventListener('keydown', )
