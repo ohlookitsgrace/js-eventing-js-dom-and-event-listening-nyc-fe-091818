@@ -1,5 +1,6 @@
 //1. Get the element
-const main = document.querySelector('main')
+const main = document.querySelector
+  ('main')
 
 //2. Add an event listener
 function onClick() {
@@ -7,5 +8,8 @@ function onClick() {
   
 }
 
-main.addEventListener('click', onClick)
+main.addEventListener('click', 
+  onClick)
 
+const input = document
+  .querySelector('input')
