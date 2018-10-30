@@ -29,8 +29,8 @@ function onDivClick(event) {
   console.log(event)
 }
 
-for (let div of divs) {
-  div.addEventListener('click', onDivClick)
+//for (let div of divs) {
+//  div.addEventListener('click', onDivClick)
 }
 
 function bubble(e) {
