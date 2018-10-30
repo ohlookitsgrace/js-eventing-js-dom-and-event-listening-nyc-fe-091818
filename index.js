@@ -27,16 +27,13 @@ divs[3].addEventListener('click', onDivClick)
 
 function onDivClick(event) {
   event.stopPropagation()
-  console.log(event)
+  console.log(this.firstChild.nodeValue.trim() + ' bubbled')
 }
 
 //for (let div of divs) {
 //  div.addEventListener('click', onDivClick)
 //}
 
-function bubble(e) {
-console.log(this.firstChild.nodeValue.trim() + ' bubbled')
-}
  
 for (const aDiv of divs) {
   aDiv.addEventListener('click', bubble);
