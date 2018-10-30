@@ -34,3 +34,7 @@ for (let div of divs) {
 function bubble(e) {
 console.log(this.firstChild.nodeValue.trim() + ' bubbled')
 }
+ 
+for (const aDiv of divs) {
+  aDiv.addEventListener('click', bubble);
+}
