@@ -31,6 +31,6 @@ for (let div of divs) {
   div.addEventListener('click', onDivClick)
 }
 
-function bubbled
+function bubble(e)
 console.log(this.firstChild.nodeValue.trim() + ' bubbled')
 }
