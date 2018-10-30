@@ -5,10 +5,13 @@ const main = document.querySelector
 //2. Add an event listener
 function onClick() {
   alert('i was clicked')
-  
 }
 
 main.addEventListener('click', onClick)
+
+function onKeyDown(event) {
+  console.log(event)
+}
 
 const input = document.querySelector('input')
 
