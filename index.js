@@ -3,7 +3,8 @@ const main = document.querySelector('main')
 
 //2. Add an event listener
 function onClick() {
-  console.log('i was clicked woah')
+  alert('i was clicked')
+  
 }
 
 main.addEventListener('click', onClick)
