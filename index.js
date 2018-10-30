@@ -20,4 +20,4 @@ const input = document.querySelector('input')
 
 input.addEventListener('keydown', onKeyDown)
 
-const divs = document.querySelectorAll()
+const divs = document.querySelectorAll('div')
