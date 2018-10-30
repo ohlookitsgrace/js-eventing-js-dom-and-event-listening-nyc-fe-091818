@@ -8,8 +8,6 @@ function onClick() {
   
 }
 
-main.addEventListener('click', 
-  onClick)
+main.addEventListener('click', onClick)
 
-const input = document
-  .querySelector('input')
+const input = document.querySelector('input')
