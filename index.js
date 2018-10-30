@@ -12,4 +12,4 @@ main.addEventListener('click', onClick)
 
 const input = document.querySelector('input')
 
-input.addEventListener('keydown', )
+input.addEventListener('keydown', onKeyDown)
